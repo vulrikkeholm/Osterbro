@@ -1,3 +1,6 @@
+This is my first time coding in HTML and CSS - I had lots of fun learning to use divs and flexboxes with Scrimba.
+
+
 # co79343039e626058f3d3abb7
 
 ## About Scrimba
