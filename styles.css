@@ -29,15 +29,14 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        width: 80vw;
+        width: 100vw;
         height: 250px;
         background-image: url("https://images.unsplash.com/photo-1591096376936-3b2103b708e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        padding: 150px;
-        background-color: red;
+        padding: 150px 0px;
 
 }
 
@@ -47,7 +46,7 @@ body {
     width: fit-content;
     text-align: center;
     border-radius: 5px;
-    padding: 15px;
+    padding: 15px 0px;
     
    
 } 
