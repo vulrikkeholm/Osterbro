@@ -1,0 +1,129 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-size: 19px;
+}
+
+#hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        height: 250px;
+        background-image: url("https://migogkbh.dk/wp-content/uploads/2021/02/faelledparken-kk-800x480.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+
+}
+
+#hero h1 {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    width: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    
+   
+} 
+
+#hero h2 {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    
+}
+
+
+#top-three {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    width: 100vw;    
+    padding-top: 75px;
+    padding-bottom: 75px; 
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+#activities {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin: 20px;
+}
+
+.card img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.image-text {
+    padding-top: 10px;
+}
+
+#guide {
+    background-color: #A8DADC;
+    display: flex;
+    padding: 10px;
+    width: 500px;
+    border-radius: 6px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide img {
+    height: 200px;
+    
+}
+
+.guide-text  {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.guide-text > * {
+    margin: 20px;
+}
+
+.guide-text p {
+    font-style: italic;
+
+}
